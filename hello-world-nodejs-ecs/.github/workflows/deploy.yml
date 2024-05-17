@@ -28,7 +28,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: shouryadutt/pearl-nodejs:0.0.1
+          tags: shouryadutt/hello-world-nodejs
 
   deploy:
     runs-on: ubuntu-latest
